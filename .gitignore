@@ -1,0 +1,37 @@
+﻿# AWS credentials
+.aws/
+credentials
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Terraform sensitive files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+
+# Logs and sensitive information
+*.log
+secrets/
+private/
+*.secret
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
